@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(235, 215, 143, 0.4);
+}
+.box{
+    background-color: rgb(221, 160, 154);
+    height: 630px;
+    padding: 20px;
+    width: 500px;
+}
+#name{
+    height: 30px;
+    outline: none;
+    width: 400px;
+}
+.user{
+    margin-top: 10px;
+}
+#lastname{
+    height: 30px;
+    outline: none;
+    width: 400px;
+}
+#user{
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+#phone{
+    height: 30px;
+    outline: none;
+    width: 400px;
+}
+.phone{
+    margin-top: 10px;
+}
+#age{
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+.age{
+    margin-top: 10px;
+}
+#state{
+    height: 30px;
+    outline: none;
+    width: 400px;
+}
+.state{
+    margin-top: 10px;
+}
+#password{
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+.password{
+    margin-top: 10px;
+}
+#email{
+    height: 30px;
+    width: 400px;
+    outline: none;
+}
+.mail{
+    margin-top: 10px;
+}
+.gender{
+    margin-top: 15px;
+}
+#submit{
+    height: 30px;
+    width: 100px;
+    /* outline: none; */
+    background-color: snow;
+}
+.submit{
+    padding: 30px;
+    margin-left: 135px;
+}
+.photos{
+    margin-top: 10px;
+}

@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    border: 1px solid black;
+    opacity: 0.9;
+    background-color: rgba(117, 112, 203, 0.816);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.container{
+    background-image: url(asset/house3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 100%;
+}
+.contain{
+    display: flex;
+    gap: 150px;
+    padding: 30px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+.oneand2{
+    display: flex;
+    gap: 30px;
+}
+.box1{
+    height: 350px;
+    opacity: 0.9;
+    padding: 30px;
+    background-color: lightsalmon   ;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 450px;
+    margin-bottom: 150px;
+}
+.box2{
+    height: 200px;
+    background-color: white;
+    width: 550px;
+    border: 1px solid black;
+    margin-bottom: 290px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.checkbox{
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+}
+.text{
+    border: 1px solid black;
+    border-color: aliceblue;
+    background-color: wheat;
+    font-size: large;
+    height: 30px;
+    outline: none;
+    width: 380px;
+}.password{
+    border: 1px solid black;
+    border-color: aliceblue;
+    background-color: wheat;
+    font-size: large;
+    height: 30px;
+    outline: none;
+    width: 380px;
+}
+.login{
+    height: 40px;
+    background-color: rgb(24, 24, 137);
+    color: white;
+    font-size: large;
+    width: 150px;
+}
+.a{
+    text-decoration: none;
+    color: blue;
+    text-transform: capitalize;
+}
+aside{
+    font-size: larger;
+}
+input{
+    margin-top: 17px;
+}
+.forget{
+    margin-top: 10px;
+}
+.navi{
+    color: red;
+}
+.portals{
+    margin-top: 15px;
+}
+.img{
+    height: 100px;
+    border-radius: 100%;
+    width: 130px;
+    margin-top: 8px;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    width: 200px;
+}
+.dc{
+    margin-top: 15px;
+}
+.cd{
+    margin-top: 15px;
+}
+.ret{
+    text-decoration: none;
+}
+.gen{
+    text-decoration: none;
+}
+.link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.online{
+    text-decoration: none;
+}

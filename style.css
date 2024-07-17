@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(asset/house2\ \(2\).jpg);
+    /* background-image: url(asset/house3.jpg); */
+    background-size: 10px 10px;
+
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    border: 1px solid black;
+    height: 650px;
+    width: 100%;   
+}
+.nav{
+    border: 1px solid black;
+    color: white;
+    background-color: darkseagreen;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 900px;
+}
+.christ{
+     /* border: 1px solid black; */
+     color: gold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.login{
+    opacity: 0.7;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.both_nav{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    
+}
+.box1{
+    border: 1px solid black;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    margin-top: 400px;
+}
+.box2{
+    border: 1px solid black;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    margin-top: 400px;
+    opacity: 0.7;
+}
+.box3{
+    border: 1px solid black;
+    height: 120px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: blue;
+    opacity: 0.7;
+    margin-top: 400px;
+}
+.boxs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
+.footer{
+    height: 20px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: blue;
+    /* margin-top: 65px; */
+    opacity: 0.7;
+}
