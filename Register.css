@@ -184,8 +184,8 @@ label{
 }
 @media screen and (max-width:800px) {
     .box{
-        /* height: 60px; */
-        width: 250px;
+        height: 70%;
+        width: 380px;
     }
     .container{
         height: 850px;
