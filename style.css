@@ -17,7 +17,7 @@
 .nav{
     border: 1px solid black;
     color: white;
-    background-color: darkseagreen;
+    background-color: rgb(106, 106, 224);
     opacity: 0.7;
     display: flex;
     justify-content: center;
@@ -55,9 +55,9 @@
     
 }
 .box1{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 120px;
-    width: 400px;
+    width: 350px;
     display: flex;
     align-items: center;
     opacity: 0.7;
@@ -67,9 +67,9 @@
     margin-top: 400px;
 }
 .box2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 120px;
-    width: 400px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,9 +79,9 @@
     opacity: 0.7;
 }
 .box3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 120px;
-    width: 400px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,9 +94,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    margin-top: 280px;
     position: fixed;
     gap: 15px;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 120px;
 }
 a{
     text-decoration: none;
@@ -104,13 +107,72 @@ a{
     font-weight: 900;
 }
 .pic{
-    height: 60px;
-    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 100%;
+    width: 90px;
 }
 .picsss{
     height: 100px;
-    width: 300px;
+    width: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .container{
+        background-image: url(asset/house2\ \(2\).jpg);
+        /* background-image: url(asset/house3.jpg); */
+        background-repeat: no-repeat;
+         display: flex;
+        background-size: 100% 900px;
+        object-fit: contain;
+        height: 900px;
+        width: 100%;   
+    }
+
+    .nav{
+        border: 1px solid black;
+        color: white;
+        background-color: rgb(106, 106, 224);
+        opacity: 0.7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 80p;
+    }
+
+    .boxs{
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 150px;
+        margin-top: 600px;
+        width: 390px;
+    }
+
+    .box1{
+        height: 10px;
+        width: 50px;
+        margin-bottom: 500px;
+    }
+
+    .box2{
+        height: 10px;
+        width: 30px;
+        margin-bottom: 500px;
+    }
+
+    .box3{
+        height: 10px;
+        width: 20px;
+        margin-bottom: 500px;
+    }
+
+    .nav{
+        
+    }
 }
