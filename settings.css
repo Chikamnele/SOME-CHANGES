@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 2px solid blue; */
+    background-color: ;
+    height: 650px;
+    display: flex;
+    width: 100%;
+}
+.box{
+    border: 3px solid #0ef;
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    background-color: gray;
+    gap: 110px;
+    justify-content: center;
+    height: 650px;
+    padding: 10px;
+    width: 500px;
+}
+.nav{
+    border: 2px solid green;
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navsearch{
+    outline: none;
+    width: 200px;
+    height: 25px;
+    border: none;
+}
+.ser{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 25px;
+}
+.auto{
+    text-decoration: none;
+    color: black;
+}
+.account{
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.user{
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    /* border: 1px solid blue; */
+}
+.background{
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    color: white;
+}
+.help{
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid blue; */
+    color: white;
+}
+.support{
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.logout{
+    margin-top: 50px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+button{
+    height: 20px;
+    width: 110px;
+    border-radius: 50px;
+}
+.box2{
+    height:650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box :hover{
+    cursor: pointer;
+    color: lime;
+    background-color: red;
+}

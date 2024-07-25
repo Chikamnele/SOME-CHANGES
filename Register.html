@@ -7,34 +7,29 @@
     <link rel="stylesheet" href="Register.css">
 </head>
 <body>
-    <form action="" method="post">
+    <form id="forms" action="" method="post">
     <div class="container"> 
         <div class="box">
-            <div class="name">First Name: <br>
-            <input type="text" name="text" id="name" placeholder="Your Name">
+            <div class="name">
+                <label for="">Yourname</label>
+            <input type="text" name="text" id="name">
         </div>
-        <div class="user">
-            Last Name: <br>
-            <input type="text" name="" id="lastname" placeholder="Sur Name">
+        <div class="user"><label for="">Surname</label>
+            <input type="text" name="surname" id="lastname">
         </div>
-        <div class="user">
-            User Name: <br>
-            <input type="text" name="" id="user" placeholder="Create User Name">
+        <div class="user"><label for="">Username</label>
+            <input type="text" name="Username" id="user">
         </div>
-        <div class="phone">
-            Mobile: <br>
-            <input type="tel" name="" id="phone" placeholder="Enter Mobile">
+        <div class="phone"><label for="">Mobile</label>
+            <input type="tel" name="number" id="phone">
         </div>
-        <div class="mail">
-            Email <br>
-            <input type="email" name="" id="email" placeholder="Enter Your Email Address ">
+        <div class="mail"><label for="">Email</label>
+            <input type="email" name="email" id="email">
         </div>
-        <div class="password">
-            Create password: <br>
-            <input type="password" name="" id="password" required placeholder="Create Password">
+        <div class="password"><label for="">Password</label>
+            <input type="password" name="password" id="password">
         </div>
-        <div class="age">
-            Age: <br>
+        <div class="age"><label for="">Age</label>
             <input type="date" name="" id="age">
         </div>
         <div class="state">
@@ -57,21 +52,16 @@
         <option value=""></option>
         </select>
         </div>
-        <div class="photos">
-            Add Pic <br>
-            <input type="file" name="" id="pic" required>
-        </div>
             <div class="gender">
                 MALE: 
                 <input type="checkbox" name="male" id="">
                 FEMALE:
-                <input type="checkbox" name="" id="" >
+                <input type="checkbox" name="" id="">
             </div>
-            <div class="submit">
-            <input id="submit" type="submit" value="SUBMIT">
-        </div>
+             <a href="dashbord.html"><input class="submit" type="submit" value="SUBMIT"></a>
         </div>
     </div>
 </form>
+<script src="register.js"></script>
 </body>
 </html>

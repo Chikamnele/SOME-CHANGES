@@ -4,66 +4,27 @@
     box-sizing: border-box;
 }
 .container{
-    border: 1px solid black;
-    height: auto;
+    height: 650px;
     width: 100%;
 }
-.nav{
-    border: 1px solid black;
-    height: 125px;
-    width: 100%;
-    padding: 30px;
-}
-.bothside{
-    display: flex;
-}
-
 .sidebar{
-    border: 1px solid black;
-    padding: 30px;
-    height: 700px;
-    width: 350px;
-    background-color: darkkhaki;
-}
-.box{
-    border: 1px solid blue;
-    height: auto;
+    position: fixed;
+    justify-content: center;
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
     width: 100%;
+
+    background-color: gray;
 }
-.payment{
-    height: 30px;
-    display: flex;align-items: center;
-    justify-content: center;
-    width: 150px;
-    border: 1px solid blue;
-}
-.noti{
-    height: 30px;
-    display: flex;align-items: center;
-    justify-content: center;
-    width: 150px;
-    border: 1px solid blue;
-}
-.setting{
-    height: 30px;
-    display: flex;align-items: center;
-    justify-content: center;
-    width: 150px;
-    border: 1px solid blue;
-}
-.help{
-    height: 30px;
-    display: flex;align-items: center;
-    justify-content: center;
-    width: 150px;
-    border: 1px solid blue;
-}
-.dashbord{
- height: 30px;
- display: flex;align-items: center;
- justify-content: center;
- width: 150px;
- border: 1px solid blue;
+#navsearch{
+     outline: none;
+    width: 170px;
+    border-radius: 25px;
+    height: 25px;
+    border: none;
+    font-size: large;
 }
 .ser{
     display: flex;
@@ -74,35 +35,52 @@
     border: 1px solid black;
     background-color: white;
     border-radius: 25px;
-    /* margin: 60px; */
-    /* margin: 30px; */
-    /* margin-left: 30px; */
 }
-#navsearch{
-    border-top: none;
-     outline: none;
-    width: 200px;
-    height: 25px;
-    border-bottom: none;
-    border-right: none;
-    border-left: none;
+.payment{
+    gap: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 1px solid blue; */
 }
-.box1{
-    height: 500px;
-    border: 1px solid blue;
+.noti{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 1px solid blue; */
+    gap: 15px;
+}
+.dashbord{
+    gap: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 1px solid blue; */
+}
+.setting{
+    height: 30px;
+    display: flex;align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 1px solid blue; */
+}
+.help{
+    height: 30px;
+    display: flex;align-items: center;
+    justify-content: center;
+    width: 300px;
+    /* border: 1px solid blue; */
 }
 .auto{
     text-decoration: none;
-}
-.inputsearch{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 250px;
-    height: 30px;
-    border: 1px solid black;
-    background-color: white;
-    border-radius: 25px;
+    color: black;
+    font-size: x-large;
 }
 #sea{
     border-top: none;
@@ -112,27 +90,8 @@
     border-bottom: none;
     border-right: none;
     border-left: none;
- }
-.Overview{
-    color: red;
-    font-size: 50px;
 }
-.nav{
-    display: flex;
-    align-items: center;
-}
-.logout{
-    border: 1px solid green;
-    border-radius: 20px;
-    height: 30px;
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(86, 86, 232);
-    color: white;
-}
-.log{
-    text-decoration: none;
-    color: white;
+.photo{
+    height: 50px;
+    width: 100px;
 }
