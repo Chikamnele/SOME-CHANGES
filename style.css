@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
     .container{
-    background-image: url(asset/house2\ \(2\).jpg);
-    /* background-image: url(asset/house3.jpg); */
+    /* background-image: url(asset/house2\ /(2\).jpg); */
+    background-image: url(asset/house3.jpg);
     background-repeat: no-repeat;
      display: flex;
     background-size: 100% 650px;
