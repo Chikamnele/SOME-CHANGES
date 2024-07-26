@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
     .container{
-    /* background-image: url(asset/house2\ /(2\).jpg); */
-    background-image: url(asset/house3.jpg);
+        background-image: url(asset/house2\ \(2\).jpg);
+    /* background-image: url(asset/house3.jpg); */
     background-repeat: no-repeat;
      display: flex;
     background-size: 100% 650px;
@@ -17,8 +17,8 @@
 .nav{
     border: 1px solid black;
     color: white;
-    background-color: rgb(106, 106, 224);
-    opacity: 0.7;
+    background-color: blue;
+    opacity: 0.5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,6 +110,7 @@ a{
     height: 50px;
     background-color: aqua;
     border-radius: 100%;
+    margin-right: 20PX;
     width: 90px;
 }
 .picsss{
