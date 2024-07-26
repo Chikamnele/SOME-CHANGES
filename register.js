@@ -5,7 +5,7 @@ let arr = [];
 
 console.log(inputFields)
 
-form.addEventListener("submit", (e) =>){
+form.addEventListener("submit", (e) =>) {
     e.preventDefault();
 
     const text = {
